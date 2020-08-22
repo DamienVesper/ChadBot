@@ -1,0 +1,40 @@
+{
+  "name": "goldenheart",
+  "version": "0.0.2",
+  "description": "A Discord bot for the official GoldenHeart Discord server.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "axios": "^0.19.2",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "events": "^3.2.0",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "math.js": "^1.1.46",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.27",
+    "yt-search": "^2.1.8",
+    "ytdl-core": "^3.2.0",
+    "opusscript": "^0.0.7",
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BR88C/goldenbot.git"
+  },
+  "keywords": [
+    "discord-bot",
+    "goldenheart"
+  ],
+  "author": "DamienVesper, BR88C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BR88C/goldenbot/issues"
+  },
+  "homepage": "https://github.com/BR88C/goldenbot#readme"
+}
