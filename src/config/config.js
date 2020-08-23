@@ -8,10 +8,10 @@ var config = {
         danger: 0xff0000
     },
     developer: `DamienVesper`,
-	developerTag: `2257`,
-    developerIDs: [`386940319666667521`, `125016735660113920`],
+	developerTag: `8936`,
+    developerIDs: [`386940319666667521`, `395711245082427393`],
     hostname: `gateway.discord.gg`,
-	prefix: `m!`,
+	prefix: `c.`,
     token: process.env.DISCORD_BOT_TOKEN,
     db: {
         uri: process.env.DATABASE_URI,
@@ -21,8 +21,8 @@ var config = {
         },
         password: process.env.DATABASE_PASSWORD
     },
-    version: `4.0.0`,
-    footer: `© Minecord 2020`
+    version: `1.0.0`,
+    footer: `© Doc Nation 2020`
 }
 
 config.footer += ` | v${config.version}`;
